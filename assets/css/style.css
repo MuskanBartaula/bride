@@ -1,0 +1,116 @@
+body {
+	font-family: 'Overpass', sans-serif;
+	font-weight: 200;:w
+
+	font-size: 18px;
+}
+
+h2 {
+	font-weight: 900;
+	font-size: 44px;
+	color: #ea4f73;
+}
+
+p {
+	font-size: 17px;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a:link, a:visited{
+	color: #ea4f73;
+	text-decoration: none;
+}
+a:hover, a:active{
+	color: #ea4f73;
+	font-weight: bold;
+	text-decoration: underline;
+	border-bottom: 3px solid #ea4f73;
+	padding-bottom: 4px;
+}
+
+.navbar {
+	background: #fff;
+}
+
+.navbar-light .navbar-brand {
+	color: #ea4f73;
+	font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #ea4f73;
+	font-weight: bold;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+	color: #ea4f73;
+	font-weight: bold;
+}
+
+.nav-item {
+	margin-right: 10px;
+	padding: 3px 15px;
+}
+.nav a{
+	color: #ea4f73;
+}
+
+
+/* Carousel CSS */
+.carousel-item {
+	width: 100%;
+	max-height: 550px; !important
+}
+
+.content-title {
+	margin: 30px 0;
+	/* border-bottom: 6px solid #ea4f73; */
+}
+
+.services {
+	margin: 60px 0;
+	padding: 20px 10px;
+}
+.service-img {
+	width: 400px;
+	height: 400px;
+}
+ul .service-item {
+	font-size: 17px;
+}
+
+/* Footer CSS */
+.footer {
+	background-color: #ea4f73;
+	height: 300px;
+	color: #fff;
+	padding: 50px 0;
+
+}
+.footer a {
+	color: #fff;
+}
+.footer .brand-link {
+	font-size: 30px;
+	font-weight: 600;
+	text-decoration: none;
+}
+.connect-icon {
+	padding-right: 22px;
+	font-size: 25px;
+}
+.category-link {
+	display: block;
+}
+.footer-topic {
+	font-weight: 600;
+	margin: 15px 0;
+}
+.footer .category-link > a {
+	font-size: 18px;
+	text-decoration: none;
+}
+
