@@ -1,5 +1,6 @@
 body {
-	font-family: 'Overpass', sans-serif;
+	/* font-family: 'Overpass', sans-serif; */
+	font-family: 'Roboto', sans-serif;
 	font-weight: 200;
 	font-size: 18px;
 }
@@ -66,6 +67,7 @@ a:hover, a:active{
 
 .content-title {
 	margin: 30px 0;
+	text-align: center;
 	/* border-bottom: 6px solid #ea4f73; */
 }
 
@@ -114,13 +116,11 @@ ul .service-item {
 }
 .bride-feedback-container {
 	width: 70%;
-	margin: 0 auto;
+	margin: 50px auto;
 	padding: 25px;
 	text-align: center;
 }
-.bride-image-feedback {
-	/* text-align: center; */
-}
+
 .bride-image-feedback img {
 	border: 5px solid #ea4f73;
 	border-radius: 50%;
