@@ -140,14 +140,17 @@
 	<!-- </div> -->
 	<!-- <!-1- ./Gallery -1-> -->
 
-	<!-- Feedback -->
-	<div class="feedback">
-		<div class="content-title">
-			<h2>Our Bride's Feedback</h2>
-		</div>
-		<div class="bride-feedback-container">
-			<div class="bride-image-feedback text-center">
-				<img src="./assets/images/bride_girl.jpg" />
+<!-- Feedback -->
+<div class="feedback">
+<div class="content-title">
+<h2> Our Bride's Feedback </h2>
+</div>
+<!-- Carousel -->
+<div id="carouselExampleControls" class="carousel slide feedback" data-ride="carousel">
+  <div class="carousel-inner bride-feedback-container">
+    <div class="carousel-item active ">
+			<div class="bride-image-feedback">
+				<img class="" src="./assets/images/bride_girl.jpg" alt="">
 			</div>
 			<div class="bride-name">
 				<h3> Mrs. Bride </h3>
@@ -157,13 +160,60 @@
 				Amet accusamus ex tempore provident impedit Similique labore incidunt pariatur numquam pariatur. Hic provident natus qui ea rerum quo! Vero enim tempore architecto ut at iste! Voluptates commodi necessitatibus at.
 				</p>
 			</div>
-		</div>
-	</div>
-	<!-- ./Feedback -->
+    </div>
+    <div class="carousel-item">
+			<div class="bride-image-feedback">
+				<img class="" src="./assets/images/bride_girl.jpg" alt="">
+			</div>
+			<div class="bride-name">
+				<h3> Mrs. Bride </h3>
+			</div>
+			<div class-"bride-feedback">
+				<p>
+				Amet accusamus ex tempore provident impedit Similique labore incidunt pariatur numquam pariatur. Hic provident natus qui ea rerum quo! Vero enim tempore architecto ut at iste! Voluptates commodi necessitatibus at.
+				</p>
+			</div>
+    </div>
+    <div class="carousel-item">
+			<div class="bride-image-feedback">
+				<img class="" src="./assets/images/bride_girl.jpg" alt="">
+			</div>
+			<div class="bride-name">
+				<h3> Mrs. Bride </h3>
+			</div>
+			<div class-"bride-feedback">
+				<p>
+				Amet accusamus ex tempore provident impedit Similique labore incidunt pariatur numquam pariatur. Hic provident natus qui ea rerum quo! Vero enim tempore architecto ut at iste! Voluptates commodi necessitatibus at.
+				</p>
+			</div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- ./Carousel-->
+</div>
+<!-- ./Feedback-->
 
 	<div class="contact-us">
 		<div class="content-title">
 			<h2>Contact Us</h2>
+		</div>
+		<div class="contact-form">
+			<form>
+				<input type="text" id="fname-input-field" placeholder="Full Name" name="fname" />
+				<input type="email" id="email-input-field" placeholder="Email" name="email" />
+				<textarea id="subject" name="subject" placeholder="Message goes here" style="height:200px"></textarea>
+				<input type="submit" value="Send Message" />
+
+
+			</form>
 		</div>
 	</div>
 
